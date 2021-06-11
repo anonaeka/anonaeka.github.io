@@ -1,0 +1,89 @@
+/* Blog */
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Desktop */
+
+body {
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+
+h1 {
+    font-size: 40px;
+    word-break: break-all;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 60px;
+  }
+
+h3 {
+    font-size: 25px;
+    word-break: break-all;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 5px;
+  }
+
+h4 {
+  margin-bottom: 2px;
+
+}
+
+.content {
+    max-width: 800px; 
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: 70px;
+  }
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.row__link img {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+}
+
+p {
+  margin: auto;
+  text-align: left;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* Mobile */
+
+
+@media screen and (max-width: 678px) {
+  .row {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .row__link {
+    width: 50%;
+}
+
+  .content {
+      margin-bottom: 30px;
+      margin: auto;
+  }
+
+  p {
+  margin: auto;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 70%;
+}
+}
+

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Control UI */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  
+  ul li {
+    list-style: none;
+    padding: 8px 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 130%;
+    display: flex;
+    
+  }
+
+ ul li:hover {
+    text-decoration: underline;
+    color: darkblue;
+ }
+
+/* Body&Footer */
+
+  main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+  img {
+    width: 100%;
+  }
+
+footer h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contacts {
+   width:100%;
+   text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ footer img{
+     width: 30px;
+     height: 30px;
+     margin: 5px;
+     transition: width 0.5s, height 0.5s;
+ }
+
+ footer img:hover {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+
+
+
+ /* unvisited link */
+a:link {
+    color:black;
+text-decoration: none;
+  }
+  
+a:visited {
+text-decoration: none;
+    color:black;
+  }
+  
+a:hover {
+text-decoration: underline;
+color: darkblue;
+  }
+  
+a:active {
+text-decoration: underline;
+
+}
+
+li:hover {
+
+background-color: white;
+}
+
+@media screen and (min-width: 678px) {
+    ul {
+        justify-content: space-evenly;
+    }
+
+    
+}
